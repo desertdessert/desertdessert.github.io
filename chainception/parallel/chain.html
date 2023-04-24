@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>Step 1 make a chain game - Drawception Chain Games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-title" content="Drawception Chain Game">
+  <meta name="application-name" content="Drawception Chain Game">
+  <meta name="msapplication-TileColor" content="#fa9c2a">
+  <meta name="theme-color" content="#fa9c2a">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link href="./../fonts.css" rel="stylesheet">
+  <link href="./../parallel.css" rel="stylesheet">
+  <link rel="stylesheet" href="./../normalize.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script>
+  $(function () {
+    var includes = $('[data-include]')
+    $.each(includes, function () {
+      var file = 'games/' + $(this).data('include') + '.html'
+      $(this).load(file)
+    })
+  })
+  </script>
+</head>
+
+<body class="vsc-initialized">
+  <div id="app">
+    <nav id="nav-drag" role="navigation" class="navbar">
+      <div class="container">
+        <div class="navbar-header flex-navbar">
+          <div class="btn-group">
+            <div class="pull-left navbar-userbar flex-center">
+              <a href="/chainception/games.html" id="mascot" rel="tooltip" data-placement="right" data-container="body"
+                title=""><img src="/logo.png" width="75" height="48" alt="Drawception Chain Games" id="mascot-img" class="logo-d mascot-anim-right">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div id="main" class="container">
+          <div class="text-center">
+            <h1 class="game-title word-break">
+              Step 1 make a chain game
+            </h1>
+            <p class="lead text-muted add-margin-top2x">
+              Ongoing chain game. <br>
+              First 100 games by <a href="https://drawception.com/player/732788/mahran-islam/">Mahran Islam</a>. Continued by <a
+                href="https://drawception.com/player/1019234/ieee/">ieee</a>.<br>
+              <small>Rules: panel 15 of a game is panel 1 of the next game.</small>
+            </p>
+          </div>
+            <div class="container horizontal-scrollable">
+              <div class="row text-center">
+                <div class="col-xs-4 pcol add-margin-top3x">
+                  <div class="worldline"><p>Alpha Worldline</p></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <!-- ongoing 0 -->
+                </div>
+                <div class="col-xs-4 pcol add-margin-top3x">
+                  <div class="worldline"><p>Beta Worldline</p></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <!-- ongoing 1 -->
+                </div>
+                <div class="col-xs-4 pcol add-margin-top3x">
+                  <div class="worldline"><p>Gamma Worldline</p></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <div data-include="31.RhKmCx318c.among-us-basketball"></div>
+                  <!-- ongoing 2 -->
+                </div>
+              </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-2 col-xs-2"></div>
+          <div class="col-md-8 col-xs-8 text-center">
+            <a href="./../games.html"
+              rel="nofollow" data-toggle="tooltip" title="" class="btn btn-default add-margin-right-sm"
+              data-original-title="Home"><span class="fas fa-home"></span></a> 
+          </div>
+          <div class="col-md-2 col-xs-2"><a href="./../hoppy7000/chain.html"
+              class="btn btn-default pull-right"><span class="fas fa-arrow-alt-right"></span></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

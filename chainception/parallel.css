@@ -1,0 +1,24 @@
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.horizontal-scrollable > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
+    white-space: normal;
+}
+  
+.pcol {
+    min-width: 330px;
+    vertical-align: top;
+}
+
+.worldline {
+  font-family: Yanone Kaffeesatz,sans-serif;
+  font-size: 3em;
+}
+  
+.pcol:nth-child(2n+1) {
+  background-color: var(--bg-accent-color);
+}
